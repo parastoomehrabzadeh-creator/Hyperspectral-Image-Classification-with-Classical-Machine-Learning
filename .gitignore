@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and model artifacts
+# Keep folders, but do not commit large/raw data by default.
+data/*
+!data/.gitkeep
+data_npz/*
+!data_npz/.gitkeep
+results/*
+!results/.gitkeep
+models/*
+!models/.gitkeep
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
